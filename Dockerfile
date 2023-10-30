@@ -1,7 +1,10 @@
 FROM node:18.14.2 AS builder
 WORKDIR /app
 COPY package.json /app/package.json
-RUN npm install --force
+COPY package-lock.json /app/package-lock.json
+COPY tailwind.config.js /app/tailwind.config.js
+COPY postcss.config.js /app/postcss.config.js
+RUN npm install
 COPY . .
 RUN npm run build
 FROM nginxinc/nginx-unprivileged:1.24
