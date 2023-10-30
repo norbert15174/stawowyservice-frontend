@@ -350,7 +350,7 @@ const initialState = {
             ]
         },
         {
-            id: 5,
+            id: 8,
             header: 'Senegal',
             material: ['beech','oak','oak pastel'],
             type: 'chair',
