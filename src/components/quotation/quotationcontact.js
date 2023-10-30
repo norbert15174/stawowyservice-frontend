@@ -81,7 +81,7 @@ function QuotationContact({ showMessage, errorMessage }) {
     const handleAfterUploadSubmit = async(uuid) => {
         try {
             formData.uuid = uuid;
-            const response = await fetch('http://stawowysk.pl:8080/api/v1/quotation/custom', {
+            const response = await fetch('https://stawowysk.pl:8443/api/v1/quotation/custom', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

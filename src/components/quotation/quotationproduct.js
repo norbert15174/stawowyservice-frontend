@@ -34,7 +34,7 @@ const QuotationProduct = ({showMessage, errorMessage}) => {
         e.preventDefault();
         try {
             setLoading(true);
-            const response = await fetch('http://stawowysk.pl:8080/api/v1/quotation', {
+            const response = await fetch('https://stawowysk.pl:8443/api/v1/quotation', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
