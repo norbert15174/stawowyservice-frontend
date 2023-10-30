@@ -75,7 +75,6 @@ function QuotationContact({ showMessage, errorMessage }) {
         } else {
             handleAfterUploadSubmit(null)
         }
-        setLoading(false);
     };
 
     const handleAfterUploadSubmit = async(uuid) => {
@@ -100,16 +99,17 @@ function QuotationContact({ showMessage, errorMessage }) {
                 });
                 showMessage(true);
                 errorMessage(false);
+                setLoading(false);
             } else {
                 errorMessage(true);
+                setLoading(false);
                 setLoading(false);
             }
         } catch (error) {
             errorMessage(true);
             setLoading(false);
+            setLoading(false);
         }
-
-        setLoading(false);
     };
 
     return (
