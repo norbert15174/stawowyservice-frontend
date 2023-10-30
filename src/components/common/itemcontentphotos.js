@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PhotoSlider from "./photoslider";
 
-const ItemContentPhotos = ({ photos, header, content, additionalInformations }) => {
+const ItemContentPhotos = ({ photos, header, content }) => {
     const [show, setShow] = useState(false);
     const [selectedPhoto, setSelectedPhoto] = useState(0);
 
@@ -25,35 +25,6 @@ const ItemContentPhotos = ({ photos, header, content, additionalInformations }) 
                 <div className="mb-8">
                     <div className="text-white font-bold text-xl mb-2">{header}</div>
                     <p className="text-neutral-400 text-base">{content}</p>
-
-                    {additionalInformations.map(item => <>
-                        <p className="my-2 space-y-1 md:space-x-1 md:space-y-0">
-                            <button
-                                className="inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900 "
-                                type="button"
-                                data-te-collapse-init
-                                data-te-target={`#${item.key}`}
-                                data-te-ripple-init
-                                data-te-ripple-color="light"
-                                aria-expanded="false"
-                                aria-controls={`${item.key}`}>
-                                {item.name}
-                            </button>
-                        </p>
-                        <div>
-                            <div
-                                className="multi-collapse !visible hidden rounded-lg shadow-lg"
-                                data-te-collapse-item
-                                id={`${item.key}`}>
-                                <div
-                                    className="block rounded-lg p-6 bg-neutral-900 text-neutral-50">
-                                    {item.plaintext ? item.plaintext : null}
-                                    {item.values.map(value => <p><span className="text-yellow-700">{value.label}: </span>{value.value}</p>)}
-                                </div>
-                            </div>
-                        </div>
-                    </>)}
-
                 </div>
             </div>
             <section className="overflow-hidden w-12/12 text-neutral-700">

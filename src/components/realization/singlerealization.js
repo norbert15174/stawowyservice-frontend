@@ -44,7 +44,7 @@ const SingleRealization = () => {
                     </p>
                 </div>
             </div>
-            {item === undefined ? null : <ItemContentPhotos key={item.id + `item`} header={item.header} additionalInformations={item.additionalInfromations} content={item.content} photos={item.items} />}
+            {item === undefined ? null : <ItemContentPhotos key={item.id + `item`} header={item.header} content={item.content} photos={item.items} />}
         </>
     )
 
