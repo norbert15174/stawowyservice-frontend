@@ -53,7 +53,7 @@ function QuotationContact({ showMessage, errorMessage }) {
             for (let i = 0; i < selectedFiles.length; i++) {
                 formData.append('files', selectedFiles[i]);
             }
-            fetch('http://stawowysk.pl:8080/api/v1/quotation/files', {
+            fetch('https://stawowysk.pl:8443/api/v1/quotation/files', {
                 method: 'POST',
                 body: formData,
             })
