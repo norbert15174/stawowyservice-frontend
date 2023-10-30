@@ -1,0 +1,58 @@
+.product-bg-color {
+    background-color: #343434;
+}
+
+.bottom-bordered-green {
+    border-bottom: 2px solid #006D1F;
+}
+
+.bottom-bordered-red {
+    border-bottom: 2px solid #FF0000;
+}
+
+.bottom-bordered-gold {
+    border-bottom: 2px solid #989B00;
+}
+
+.bg-color-product-green {
+    background-color: #006D1F;
+    transition: background 0.2s;
+}
+
+.bg-color-product-green:hover {
+    background-color: #003d11;
+}
+
+.bg-color-product-green:focus {
+    background-color: #003d11;
+}
+
+.bg-color-product-red {
+    background-color: #9e3a00;
+    transition: background 0.2s;
+}
+
+.bg-color-product-red:hover {
+    background-color: #642500;
+}
+
+.bg-color-product-red:focus {
+    background-color: #642500;
+}
+
+.bg-color-product-gold {
+    background-color: #989B00;
+    transition: background 0.2s;
+}
+
+.bg-color-product-gold:hover {
+    background-color: #5f6100;
+}
+
+.bg-color-product-gold:focus {
+    background-color: #5f6100;
+}
+
+.products-move {
+    margin-top: -20rem !important;
+}
