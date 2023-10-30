@@ -41,13 +41,13 @@ function Footer() {
                                 Produkty
                             </h6>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Stoły</a>
+                                <a href="/products" className="text-neutral-600 hover:text-neutral-200">Stoły</a>
                             </p>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Krzesła</a>
+                                <a href="/products"  className="text-neutral-600 hover:text-neutral-200">Krzesła</a>
                             </p>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Ławy</a>
+                                <a href="/products"  className="text-neutral-600 hover:text-neutral-200">Ławy</a>
                             </p>
                         </div>
                         <div className="">
@@ -56,16 +56,16 @@ function Footer() {
                                 Użyteczne linki
                             </h6>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Home</a>
+                                <a href="/" className="text-neutral-600 hover:text-neutral-200">Home</a>
                             </p>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Wycena</a>
+                                <a href="/quotation" className="text-neutral-600 hover:text-neutral-200">Wycena</a>
                             </p>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Produkty</a>
+                                <a href="/products" className="text-neutral-600 hover:text-neutral-200">Produkty</a>
                             </p>
                             <p className="mb-4">
-                                <a href="#!" className="text-neutral-600 hover:text-neutral-200">Realizacje</a>
+                                <a href="/realization" className="text-neutral-600 hover:text-neutral-200">Realizacje</a>
                             </p>
                         </div>
                         <div>
