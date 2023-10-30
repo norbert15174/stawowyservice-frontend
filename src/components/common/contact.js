@@ -23,7 +23,7 @@ function Contact() {
         e.preventDefault();
         try {
             setLoading(true);
-            const response = await fetch('http://localhost:9000/api/v1/contact', {
+            const response = await fetch('http://localhost:8080/api/v1/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

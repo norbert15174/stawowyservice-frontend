@@ -53,7 +53,7 @@ function QuotationContact({ showMessage, errorMessage }) {
             for (let i = 0; i < selectedFiles.length; i++) {
                 formData.append('files', selectedFiles[i]);
             }
-            fetch('http://localhost:9000/api/v1/quotation/files', {
+            fetch('http://localhost:8080/api/v1/quotation/files', {
                 method: 'POST',
                 body: formData,
             })
@@ -75,12 +75,13 @@ function QuotationContact({ showMessage, errorMessage }) {
         } else {
             handleAfterUploadSubmit(null)
         }
+        setLoading(false);
     };
 
     const handleAfterUploadSubmit = async(uuid) => {
         try {
             formData.uuid = uuid;
-            const response = await fetch('http://localhost:9000/api/v1/quotation/custom', {
+            const response = await fetch('http://localhost:8080/api/v1/quotation/custom', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -101,9 +102,11 @@ function QuotationContact({ showMessage, errorMessage }) {
                 errorMessage(false);
             } else {
                 errorMessage(true);
+                setLoading(false);
             }
         } catch (error) {
             errorMessage(true);
+            setLoading(false);
         }
 
         setLoading(false);

@@ -57,6 +57,14 @@ const initialState = {
             material: ['fornir-flizeline','fornir-natural-modified','fornir'],
             time: "2-4 tygodni",
             position: "vertical"
+        },
+        {
+            id: 8,
+            image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo1.jpg`,
+            name: "Senegal",
+            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            time: "2-4 tygodni",
+            position: "horizontal"
         }
     ],
 
@@ -341,6 +349,38 @@ const initialState = {
                 }
             ]
         },
+        {
+            id: 5,
+            header: 'Senegal',
+            material: ['beech','oak','oak pastel'],
+            type: 'chair',
+            additionalInfromations: [
+                {
+                    key: null,
+                    name: "",
+                    values: [
+                    ],
+                    plaintext: null
+                }
+            ],
+            items: [
+                {
+                    id: 22,
+                    photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo1.jpg',
+                    type: 'horizontal'
+                },
+                {
+                    id: 23,
+                    photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo2.jpg',
+                    type: 'horizontal'
+                },
+                {
+                    id: 24,
+                    photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo3.jpg',
+                    type: 'horizontal'
+                }
+            ]
+        }, 
     ]
 };
 
