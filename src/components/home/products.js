@@ -37,7 +37,7 @@ const Products = () => {
                             </Link>
                         </div>
                         <Link to="/products" className="xl:h-[300px] 2xl:h-[400px] 3xl:h-[500px]">
-                            <img className="rounded-b-lg w-12/12" src="https://storage.cloud.google.com/stawowy-bucket/stawowy/home/table.png" alt="" />
+                            <img className="rounded-b-lg w-12/12" src="https://storage.googleapis.com/stawowy-bucket/stawowy/home/table.png" alt="" />
                         </Link>
                     </div>
                 </div>
