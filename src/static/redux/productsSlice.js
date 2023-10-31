@@ -8,7 +8,8 @@ const initialState = {
             name: "Krzeslo Kenia",
             material: [],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         },
         {
             id: 2,
@@ -16,7 +17,8 @@ const initialState = {
             name: "Niger",
             material: ['beech','oak','oak pastel'],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         },
         {
             id: 3,
@@ -24,7 +26,8 @@ const initialState = {
             name: "Kongo",
             material: ['beech','oak','oak pastel'],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         },
         {
             id: 4,
@@ -32,7 +35,8 @@ const initialState = {
             name: "Ghana",
             material: ['beech','oak','oak pastel'],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         },
         {
             id: 5,
@@ -40,7 +44,8 @@ const initialState = {
             name: "Ghana hoker",
             material: ['beech','oak','oak pastel'],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         },
         {
             id: 6,
@@ -48,7 +53,8 @@ const initialState = {
             name: "Konsola",
             material: ['fornir-flizeline','fornir-natural-modified','fornir'],
             time: "2-4 tygodni",
-            position: "vertical"
+            position: "vertical",
+            type: "table"
         },
         {
             id: 7,
@@ -56,7 +62,8 @@ const initialState = {
             name: "Ława",
             material: ['fornir-flizeline','fornir-natural-modified','fornir'],
             time: "2-4 tygodni",
-            position: "vertical"
+            position: "vertical",
+            type: "bench"
         },
         {
             id: 8,
@@ -64,7 +71,8 @@ const initialState = {
             name: "Senegal",
             material: ['fornir-flizeline','fornir-natural-modified','fornir'],
             time: "2-4 tygodni",
-            position: "horizontal"
+            position: "horizontal",
+            type: "chair"
         }
     ],
 

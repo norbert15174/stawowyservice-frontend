@@ -87,6 +87,7 @@ const Sampler = ({ materials }) => {
                                     <div
                                         class="bg-neutral-900 mt-auto flex flex-shrink-0 flex-wrap items-center justify-end rounded-b-md border-t-2 border-black border-opacity-100 p-4 dark:border-opacity-50 min-[0px]:rounded-none">
                                         <button
+                                            onClick={() => setShowSampler(false)}
                                             type="button"
                                             className="inline-block rounded bg-yellow-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-neutral-600">
                                             Zamknij

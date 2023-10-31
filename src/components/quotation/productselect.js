@@ -46,7 +46,7 @@ const ProductSelect = ({ sqp, qp, sqps, select, gm }) => {
             <div className='w-full'>
                 {nonSelected && selectedProducts.length === 0 ?
                     <div className="min-w-[60vw] max-w-[800px] my-5 mx-auto bg-orange-600 rounded text-white border border-orange-700 px-4 py-3 relative" role="alert">
-                        <strong className="font-bold">Nie wybrano ulubionych produktów!</strong> Przejdź do zakładki produkty i polub wybrany produkt, aby móc konynuować.
+                        <strong className="font-bold">Nie wybrano ulubionych produktów!</strong> Przejdź do zakładki produkty i polub wybrany produkt, aby móc kontynuować.
                     </div>
                     : <div className="flex flex-wrap -mx-3 mb-2">
                         <div className="px-3 mx-auto">
