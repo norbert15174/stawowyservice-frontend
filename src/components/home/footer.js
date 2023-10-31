@@ -11,7 +11,7 @@ function Footer() {
                     <div className="mr-12 hidden lg:block">
                         Znajdź nas w mediach społecznościowych
                     </div>
-                    <div className="flex justify-center">
+                    <div className="lg:flex lg:justify-center">
                         <a target="_blank" href="https://www.instagram.com/ms_stoly_krzesla/" className="mr-6 text-neutral-600 hover:text-neutral-200">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

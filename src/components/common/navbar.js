@@ -114,7 +114,7 @@ const NavBar = () => {
                                 <div
                                     className="text-gray-300 hover:text-white px-3 py-5 rounded-md text-lg font-medium stick-font place-content-center flex items-center"
                                 >
-                                    <a className="p-2 hover:bg-zinc-900 rounded">
+                                    <a target="_blank" href="https://www.instagram.com/ms_stoly_krzesla/" className="p-2 hover:bg-zinc-900 rounded">
                                         <FaInstagram className="inline-block h-10 w-10" />
                                     </a>
                                 </div>
