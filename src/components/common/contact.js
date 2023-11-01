@@ -72,16 +72,16 @@ function Contact() {
                 </div> : null}
 
             <div className="grid grid-cols-1 md:grid-cols-2 h-4/6 w-10/12 mx-auto py-10 md:h-screen xl:pb-24">
-                <div className="w-12/12 bg-zinc-900 h-full left-0 top-0 md:rounded-l-lg grid place-items-center py-5 h-6/6">
+                <div className="w-12/12 bg-zinc-900 h-screen left-0 top-0 md:rounded-l-lg grid place-items-center py-5 h-6/6">
                     <form className="w-full md:w-10/12 p-5" onSubmit={handleSubmit}>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <div className="w-full px-3">
                                 <fieldset className="border-t border-yellow-700">
                                     <legend className="mx-auto px-4 text-yellow-700 text-3xl italic stick-font">KONTAKT</legend>
                                 </fieldset>
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                 <label className="block uppercase tracking-wide text-yellow-700 text-md mb-2 stick-font" htmlFor="grid-first-name">
                                     Imię
@@ -109,7 +109,7 @@ function Contact() {
                                     className="appearance-none block w-full bg-gray-200 text-yellow-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Nazwisko" />
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <div className="w-full px-3">
                                 <label className="block uppercase tracking-wide text-yellow-700 text-md  mb-2 stick-font" htmlFor="grid-password">
                                     Email
@@ -122,7 +122,7 @@ function Contact() {
                                     className="appearance-none block w-full bg-gray-200 text-yellow-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="example@gmail.com" />
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <div className="w-full px-3">
                                 <label className="block uppercase tracking-wide text-yellow-700 text-md  mb-2 stick-font" htmlFor="grid-password">
                                     Telefon
@@ -137,7 +137,7 @@ function Contact() {
                                     className="appearance-none block w-full bg-gray-200 text-yellow-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="Telefon" />
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <div className="w-full px-3">
                                 <label className="block uppercase tracking-wide text-yellow-700 text-md mb-2 stick-font" htmlFor="grid-password2">
                                     Treść wiadomości
@@ -146,10 +146,10 @@ function Contact() {
                                     required
                                     maxLength="2000"
                                     onChange={handleInputChange}
-                                    name="additionalInfo" rows={12} className="appearance-none block w-full bg-gray-200 text-yellow-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password2" placeholder="Tutaj wpisz treść wiadomości" />
+                                    name="additionalInfo" rows={6} className="appearance-none block w-full bg-gray-200 text-yellow-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password2" placeholder="Tutaj wpisz treść wiadomości" />
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 mb-3">
                             <button
                                 type="submit"
                                 className="cursor-pointer mx-auto inline-block rounded text-center bg-yellow-700 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900">
@@ -159,9 +159,9 @@ function Contact() {
 
                     </form>
                 </div>
-                <div className="map-container relative shadow-lg rounded-lg w-12/12 md:h-full h-96">
+                <div className="map-container relative shadow-lg rounded-lg w-12/12 md:h-screen h-96">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41152.431774671815!2d19.589728836796677!3d49.860737725851976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471662ea61d7ba33%3A0xd1c35e4cddfe8564!2zQmFyd2HFgmQgR8Ozcm55!5e0!3m2!1sen!2spl!4v1679151429826!5m2!1sen!2spl"
-                        className="left-0 top-0 h-full w-full absolute md:rounded-r-lg test-dupa" frameBorder="0" allowFullScreen></iframe>
+                        className="left-0 top-0 h-screen w-full absolute md:rounded-r-lg test-dupa" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 {loading && <div className='fixed top-0 left-0 right-0 w-screen h-screen z-50 bg-black opacity-80'>
                     <div style={{ position: 'relative', top: 'calc(50vh - 100px)', left: 'calc(50vw - 50px)' }}>

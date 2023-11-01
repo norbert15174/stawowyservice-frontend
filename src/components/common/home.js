@@ -7,15 +7,16 @@ import { Link } from "react-router-dom";
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="z-50">
-            <div className="h-screen v-screen" style={{
+        <div>
+            <div className="h-screen v-screen mb-20" style={{
                 backgroundImage: `url(https://storage.googleapis.com/stawowy-bucket/stawowy/home/home.png)`, backgroundPosition: `center`,
-                backgroundRepeat: `no-repeat`, backgroundSize: `cover`
+                backgroundRepeat: `no-repeat`, backgroundSize: `cover`,
+                zIndex: -2
             }}>
                 <div className="h-96 hidden md:block">
 
                 </div>
-                <nav className="bg-black md:hidden ">
+                <nav className="bg-black md:hidden z-[1000]" style={{zIndex: 1000}}>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-between h-20">
                             <div className="flex items-center">
@@ -129,10 +130,10 @@ function Home() {
                         )}
                     </Transition>
                 </nav>
-                <nav className="bg-black hidden md:block md:p-4 lg:p-6 xl:p-8 bg-opacity-80">
-                    <div className="max-w-7xl mx-auto px-2 md:px-4 lg:px-7">
+                <div className="bg-black hidden md:block md:p-4 lg:p-6 xl:p-8 bg-opacity-80" style={{zIndex: 10000}}>
+                    <div className="max-w-7xl mx-auto px-2 md:px-4 lg:px-7" style={{zIndex: 1000}}>
                         <div className="flex items-center justify-between h-16">
-                            <div className="flex items-center">
+                            <div className="flex items-center" style={{zIndex: 10000}}>
                                 <div className="flex-shrink-0">
                                     <img
                                         className="md:h-28 md:w-28 xl:h-40 xl:w-40 2xl:h-52 2xl:w-52"
@@ -140,7 +141,7 @@ function Home() {
                                         alt="Workflow"
                                     />
                                 </div>
-                                <div className="hidden md:block md:mx-10 xl:mx-32">
+                                <div className="hidden md:block md:mx-10 xl:mx-32" style={{zIndex: 1000}}>
                                     <div className="md:ml-0 xl:ml-10 flex items-baseline space-x-4">
                                         <div
                                             href="#"
@@ -172,7 +173,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
         </div>
     );

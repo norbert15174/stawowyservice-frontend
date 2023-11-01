@@ -54,5 +54,6 @@
 }
 
 .products-move {
-    margin-top: -20rem !important;
+    margin-top: -10rem !important;
+    z-index: -1;
 }

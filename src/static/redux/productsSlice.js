@@ -15,7 +15,7 @@ const initialState = {
             id: 2,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/niger/niger1.png`,
             name: "Niger",
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel', 'custom'],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -24,7 +24,7 @@ const initialState = {
             id: 3,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/kongo/kongo2.png`,
             name: "Kongo",
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel', 'custom'],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -33,7 +33,7 @@ const initialState = {
             id: 4,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/ghana/ghana1`,
             name: "Ghana",
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel', 'custom'],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -42,7 +42,7 @@ const initialState = {
             id: 5,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/ghana%20hoker/ghana%20hoker3.png`,
             name: "Ghana hoker",
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel', 'custom'],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -51,7 +51,7 @@ const initialState = {
             id: 6,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/konsola/konsola3.png`,
             name: "Konsola",
-            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
             time: "2-4 tygodni",
             position: "vertical",
             type: "table"
@@ -60,7 +60,7 @@ const initialState = {
             id: 7,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/%C5%82awa/%C5%82awa3.png`,
             name: "Ława",
-            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
             time: "2-4 tygodni",
             position: "vertical",
             type: "bench"
@@ -69,7 +69,7 @@ const initialState = {
             id: 8,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo1.jpg`,
             name: "Senegal",
-            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -124,7 +124,7 @@ const initialState = {
         {
             id: 2,
             header: 'Niger',
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -168,7 +168,7 @@ const initialState = {
         {
             id: 3,
             header: 'Kongo',
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -216,7 +216,7 @@ const initialState = {
         {
             id: 4,
             header: 'Ghana',
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -260,11 +260,11 @@ const initialState = {
                     type: 'horizontal'
                 }
             ]
-        }, 
+        },
         {
             id: 5,
             header: 'Ghana hoker',
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -292,11 +292,11 @@ const initialState = {
                     type: 'horizontal'
                 }
             ]
-        }, 
+        },
         {
             id: 6,
             header: 'Konsola',
-            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir'],
             type: 'table',
             additionalInfromations: [
                 {
@@ -328,7 +328,7 @@ const initialState = {
         {
             id: 7,
             header: 'Ława',
-            material: ['fornir-flizeline','fornir-natural-modified','fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir'],
             type: 'bench',
             additionalInfromations: [
                 {
@@ -360,7 +360,7 @@ const initialState = {
         {
             id: 8,
             header: 'Senegal',
-            material: ['beech','oak','oak pastel'],
+            material: ['beech', 'oak', 'oak pastel'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -388,7 +388,7 @@ const initialState = {
                     type: 'horizontal'
                 }
             ]
-        }, 
+        },
     ]
 };
 

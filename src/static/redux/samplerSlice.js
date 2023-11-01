@@ -1851,6 +1851,18 @@ const initialState = {
             name: 'Świerk',
             image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/fornir/%C5%9Awierk.png',
             type: 'fornir'
+        },
+        {
+            id: 'blackmat',
+            name: 'Black-mat',
+            image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/custom/black-mat.png',
+            type: 'custom'
+        },
+        {
+            id: 'Swierk',
+            name: 'White-mat',
+            image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/custom/white-mat.png',
+            type: 'custom'
         }
     ]
 };
