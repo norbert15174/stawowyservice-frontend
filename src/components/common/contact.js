@@ -71,8 +71,8 @@ function Contact() {
                     </span>
                 </div> : null}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 h-4/6 w-10/12 mx-auto py-10 md:h-screen xl:pb-24">
-                <div className="w-12/12 bg-zinc-900 h-full lg:h-screen left-0 top-0 md:rounded-l-lg grid place-items-center py-5 h-6/6">
+            <div className="grid grid-cols-1 md:grid-cols-2 h-4/6 w-10/12 mx-auto py-10 md:h-screen xl:pb-24 lg:min-h-[900px]">
+                <div className="w-12/12 bg-zinc-900 h-full lg:h-screen left-0 top-0 md:rounded-l-lg grid place-items-center py-5 h-6/6 md:min-h-[900px]">
                     <form className="w-full md:w-10/12 p-5" onSubmit={handleSubmit}>
                         <div className="flex flex-wrap -mx-3 mb-6">
                             <div className="w-full px-3">
@@ -159,9 +159,9 @@ function Contact() {
 
                     </form>
                 </div>
-                <div className="map-container relative shadow-lg rounded-lg w-12/12 md:h-full h-96">
+                <div className="map-container relative shadow-lg rounded-lg w-12/12 md:h-full h-96 lg:min-h-[900px]">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41152.431774671815!2d19.589728836796677!3d49.860737725851976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471662ea61d7ba33%3A0xd1c35e4cddfe8564!2zQmFyd2HFgmQgR8Ozcm55!5e0!3m2!1sen!2spl!4v1679151429826!5m2!1sen!2spl"
-                        className="left-0 top-0 h-full lg:lg:h-screen w-full absolute md:rounded-r-lg test-dupa" frameBorder="0" allowFullScreen></iframe>
+                        className="left-0 top-0 h-full lg:lg:h-screen w-full absolute md:rounded-r-lg test-dupa lg:min-h-[900px]" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 {loading && <div className='fixed top-0 left-0 right-0 w-screen h-screen z-50 bg-black opacity-80'>
                     <div style={{ position: 'relative', top: 'calc(50vh - 100px)', left: 'calc(50vw - 50px)' }}>
