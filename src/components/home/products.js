@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Products = () => {
 
     return (
-        <div className="relative mt-[-15rem] lg:mt-[-10rem] 2xl:mt-[-20rem] py-20 2xl:py-28">
+        <div className="relative mt-[-20rem] lg:mt-[-15rem] 2xl:mt-[-20rem] py-20 2xl:py-28">
             <div className="grid xl:grid-cols-3 md:grid-cols-1 gap-10 place-items-center md:pb-5 lg:pb-10 xl:pb-20">
                 <div className="w-12/12 p-5">
                     <div className="product-bg-color shadow-md rounded-lg max-w-[500px] xl:h-[600px] 2xl:h-[700px] 3xl:h-[800px]">
