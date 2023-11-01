@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import zIndex from "@material-ui/core/styles/zIndex";
 
 
 function Home() {
@@ -11,12 +12,12 @@ function Home() {
             <div className="h-screen v-screen mb-20" style={{
                 backgroundImage: `url(https://storage.googleapis.com/stawowy-bucket/stawowy/home/home.png)`, backgroundPosition: `center`,
                 backgroundRepeat: `no-repeat`, backgroundSize: `cover`,
-                zIndex: -2
+                zIndex: `-100`
             }}>
-                <div className="h-96 hidden md:block">
+                <div className="h-60 hidden md:block">
 
                 </div>
-                <nav className="bg-black md:hidden z-[1000]" style={{zIndex: 1000}}>
+                <nav className="bg-black md:hidden" style={{position: `relative`, zIndex: `1000`}}>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-between h-20">
                             <div className="flex items-center">
@@ -28,7 +29,7 @@ function Home() {
                                     />
                                 </div>
                             </div>
-                            <div className="-mr-2 flex md:hidden">
+                            <div className="-mr-2 flex md:hidden" style={{zIndex: `100`}}>
                                 <a
                                     onClick={() => setIsOpen(!isOpen)}
                                     type="button"
@@ -132,7 +133,7 @@ function Home() {
                 </nav>
                 <div className="bg-black hidden md:block md:p-4 lg:p-6 xl:p-8 bg-opacity-80" style={{zIndex: 10000}}>
                     <div className="max-w-7xl mx-auto px-2 md:px-4 lg:px-7" style={{zIndex: 1000}}>
-                        <div className="flex items-center justify-between h-16">
+                        <div className="flex items-center justify-between h-16" style={{zIndex: `100`}}>
                             <div className="flex items-center" style={{zIndex: 10000}}>
                                 <div className="flex-shrink-0">
                                     <img

@@ -52,8 +52,3 @@
 .bg-color-product-gold:focus {
     background-color: #5f6100;
 }
-
-.products-move {
-    margin-top: -10rem !important;
-    z-index: -1;
-}
