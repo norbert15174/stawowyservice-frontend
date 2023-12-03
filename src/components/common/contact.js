@@ -23,7 +23,7 @@ function Contact() {
         e.preventDefault();
         try {
             setLoading(true);
-            const response = await fetch('https://stawowysk.pl:8443/api/v1/contact', {
+            const response = await fetch('https://stawood.pl:8443/api/v1/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
