@@ -20,7 +20,7 @@ const Realization = () => {
                     </fieldset>
                 </div>
                 <p className="w-12/12 md:w-8/12 lg:w-6/12 lg:text-xl  md:mx-auto">
-                Kalwaria Zebrzydowska to polskie zagłębie meblowe - właśnie z tego miejsca wywodzi się nasza firma „Stawowy”, nazwa ta nie jest przypadkowa, ponieważ już trzecie pokolenie naszej rodziny zajmuje się produkcją mebli. To co nas wyróżnia to przede wszystkim spore doświadczenie oraz meble tworzone według potrzeb klienta. Nasze produkty odgrywają ważną role w kształtowaniu wyglądu wnetrz, ponieważ stanowią istotny element dekoracyjny i praktyczny każdego pomieszczenia. Posiadasz wysłużone meble? Nie musisz ich wyrzucać!  Dzięki wykonanej przez nas renowacji nadaj im drugie życie. Odnowimy dla Państwa wszystko z drewna litego.
+                Kalwaria Zebrzydowska to polskie zagłębie meblowe - właśnie z tego miejsca wywodzi się nasza firma „StaWood”, nazwa ta nie jest przypadkowa, ponieważ już trzecie pokolenie naszej rodziny zajmuje się produkcją mebli. To co nas wyróżnia to przede wszystkim spore doświadczenie oraz meble tworzone według potrzeb klienta. Nasze produkty odgrywają ważną role w kształtowaniu wyglądu wnetrz, ponieważ stanowią istotny element dekoracyjny i praktyczny każdego pomieszczenia. Posiadasz wysłużone meble? Nie musisz ich wyrzucać!  Dzięki wykonanej przez nas renowacji nadaj im drugie życie. Odnowimy dla Państwa wszystko z drewna litego.
 
                 </p>
 
