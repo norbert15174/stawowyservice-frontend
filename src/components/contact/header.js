@@ -18,7 +18,7 @@ const ContactHeader = () => (
                                 <path
                                     d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                             </svg>
-                            <p class="font-medium text-xs lg:text-sm xl:text-base">michal.staw22@gmail.com</p>
+                            <p class="font-medium text-xs lg:text-sm xl:text-base">stawood.meble@gmail.com</p>
                         </div>
                         <div class="mb-12 lg:mb-0 text-center mx-auto px-5 cursor-pointer">
                             <svg class="w-8 h-8 text-yellow-700 mb-6 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>

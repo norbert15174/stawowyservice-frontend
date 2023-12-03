@@ -1859,7 +1859,7 @@ const initialState = {
             type: 'custom'
         },
         {
-            id: 'Swierk',
+            id: 'whitemat',
             name: 'White-mat',
             image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/custom/white-mat.png',
             type: 'custom'

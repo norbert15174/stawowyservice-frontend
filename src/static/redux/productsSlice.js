@@ -5,7 +5,7 @@ const initialState = {
         {
             id: 1,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/kenia/kenia2.png`,
-            name: "Krzeslo Kenia",
+            name: "Kenia",
             material: [],
             time: "2-4 tygodni",
             position: "horizontal",
@@ -69,7 +69,7 @@ const initialState = {
             id: 8,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/senegal/krzeslo1.jpg`,
             name: "Senegal",
-            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
+            material: [],
             time: "2-4 tygodni",
             position: "horizontal",
             type: "chair"
@@ -124,7 +124,7 @@ const initialState = {
         {
             id: 2,
             header: 'Niger',
-            material: ['beech', 'oak', 'oak pastel'],
+            material: ['beech', 'oak', 'oak pastel','custom'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -168,7 +168,7 @@ const initialState = {
         {
             id: 3,
             header: 'Kongo',
-            material: ['beech', 'oak', 'oak pastel'],
+            material: ['beech', 'oak', 'oak pastel','custom'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -216,7 +216,7 @@ const initialState = {
         {
             id: 4,
             header: 'Ghana',
-            material: ['beech', 'oak', 'oak pastel'],
+            material: ['beech', 'oak', 'oak pastel','custom'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -264,7 +264,7 @@ const initialState = {
         {
             id: 5,
             header: 'Ghana hoker',
-            material: ['beech', 'oak', 'oak pastel'],
+            material: ['beech', 'oak', 'oak pastel','custom'],
             type: 'chair',
             additionalInfromations: [
                 {
@@ -296,7 +296,7 @@ const initialState = {
         {
             id: 6,
             header: 'Konsola',
-            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir','custom'],
             type: 'table',
             additionalInfromations: [
                 {
@@ -328,7 +328,7 @@ const initialState = {
         {
             id: 7,
             header: 'Ława',
-            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir'],
+            material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir','custom'],
             type: 'bench',
             additionalInfromations: [
                 {
@@ -360,7 +360,7 @@ const initialState = {
         {
             id: 8,
             header: 'Senegal',
-            material: ['beech', 'oak', 'oak pastel'],
+            material: [],
             type: 'chair',
             additionalInfromations: [
                 {
