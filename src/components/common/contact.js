@@ -152,7 +152,7 @@ function Contact() {
                         <div className="flex flex-wrap -mx-3 mb-6">
                             <button
                                 type="submit"
-                                className="cursor-pointer mx-auto inline-block rounded text-center bg-yellow-700 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900">
+                                className="cursor-pointer mx-auto inline-block rounded text-center bg-yellow-700 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 ">
                                 Wyślij wiadomość
                             </button>
                         </div>

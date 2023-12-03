@@ -115,7 +115,7 @@ const ItemProductContainer = ({ id, materials, type, photos, header, additionalI
                         {additionalInformations.map(item => item.key !== null ? <>
                             <p className="my-2 space-y-1 md:space-x-1 md:space-y-0">
                                 <button
-                                    className="inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900 "
+                                    className="inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 "
                                     type="button"
                                     data-te-collapse-init
                                     data-te-target={`#${item.key}`}
@@ -141,7 +141,7 @@ const ItemProductContainer = ({ id, materials, type, photos, header, additionalI
                         </> : null)}
                         {materials.length > 0 ? <div className="mb-2 space-y-1 md:space-x-1 md:space-y-0"><Sampler materials={materials} /></div> : null}
                         {type === 'chair' ? <a href="http://magab.pl/pl/oferta/178-tkaniny" target="_blank"
-                            className="mb-2 space-y-1 md:space-x-1 md:space-y-0 inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900 ">
+                            className="mb-2 space-y-1 md:space-x-1 md:space-y-0 inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 ">
                             Tkaniny
                         </a> : null}
                     </div>

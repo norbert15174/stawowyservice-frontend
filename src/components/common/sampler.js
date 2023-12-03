@@ -14,7 +14,7 @@ const Sampler = ({ materials }) => {
         <div>
             <button
                 type="button"
-                className="inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900 "
+                className="inline-block rounded bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 "
                 onClick={() => setShowSampler(true)}>
                 Próbnik kolorów drewna
             </button>
