@@ -20,7 +20,9 @@ const Realization = () => {
                     </fieldset>
                 </div>
                 <p className="w-12/12 md:w-8/12 lg:w-6/12 lg:text-xl  md:mx-auto">
-                Kalwaria Zebrzydowska to polskie zagłębie meblowe - właśnie z tego miejsca wywodzi się nasza firma „StaWood”, nazwa ta nie jest przypadkowa, ponieważ już trzecie pokolenie naszej rodziny zajmuje się produkcją mebli. To co nas wyróżnia to przede wszystkim spore doświadczenie oraz meble tworzone według potrzeb klienta. Nasze produkty odgrywają ważną role w kształtowaniu wyglądu wnetrz, ponieważ stanowią istotny element dekoracyjny i praktyczny każdego pomieszczenia. Posiadasz wysłużone meble? Nie musisz ich wyrzucać!  Dzięki wykonanej przez nas renowacji nadaj im drugie życie. Odnowimy dla Państwa wszystko z drewna litego.
+                    Kalwaria Zebrzydowska to polskie zagłębie meblowe - właśnie z tego miejsca wywodzi się nasza firma „StaWood”. Nazwa ta nie jest
+                    przypadkowa, ponieważ pierwszy jej człon nawiązuje do nazwiska Stawowy należącego do
+                    rodziny, która już trzecie pokolenie zajmuje się produkcją mebli. To co nas wyróżnia to przede wszystkim spore doświadczenie oraz meble tworzone według potrzeb klienta. Nasze produkty odgrywają ważną role w kształtowaniu wyglądu wnetrz, ponieważ stanowią istotny element dekoracyjny i praktyczny każdego pomieszczenia. Posiadasz wysłużone meble? Nie musisz ich wyrzucać!  Dzięki wykonanej przez nas renowacji nadaj im drugie życie. Odnowimy dla Państwa wszystko z drewna litego.
 
                 </p>
 
@@ -68,7 +70,7 @@ const Realization = () => {
                             alt="..." />
                         <div className="absolute bottom-0 pb-14 pt-6 md:py-20 text-center text-white md:block w-screen bg-black bg-opacity-80">
                             <p className="text-xs md:text-md lg:text-lg xl:text-lg mb-4">
-                            Blat stołu wykonany z okleiny naturalnej – palisander, wykończony lakierem poliuretanowym – półpołyskowym. Podstawa stołu to metal lakierowany proszkowo w kolorze czarny mat. 
+                                Blat stołu wykonany z okleiny naturalnej – palisander, wykończony lakierem poliuretanowym – półpołyskowym. Podstawa stołu to metal lakierowany proszkowo w kolorze czarny mat.
                             </p>
                             <Link to="/realization/5"
                                 className={`bg-yellow-700 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900`}
@@ -87,7 +89,7 @@ const Realization = () => {
                             alt="..." />
                         <div className="absolute bottom-0 pb-14 pt-6 md:py-20 text-center text-white md:block w-screen bg-black bg-opacity-80">
                             <p className="text-xs md:text-md lg:text-lg xl:text-lg mb-4">
-                            Blat stołu wykonany z litego drewna dębowego, wykończony lakierem - poliuretanowym półpołyskowym , spód stołu metal lakierowany proszkowo w kolorze czarny mat.
+                                Blat stołu wykonany z litego drewna dębowego, wykończony lakierem - poliuretanowym półpołyskowym , spód stołu metal lakierowany proszkowo w kolorze czarny mat.
                             </p>
                             <Link to="/realization/3"
                                 className={`bg-yellow-700 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900`}
@@ -106,7 +108,7 @@ const Realization = () => {
                             alt="..." />
                         <div className="absolute bottom-0 pb-14 pt-6 md:py-20 text-center text-white md:block w-screen bg-black bg-opacity-80">
                             <p className="text-xs md:text-md lg:text-lg xl:text-lg mb-4">
-                            Stół i krzesła wykonane z drewna bukowego , wykończone lakierem poliuretanowym białym – półmatowym.
+                                Stół i krzesła wykonane z drewna bukowego , wykończone lakierem poliuretanowym białym – półmatowym.
                             </p>
                             <Link to="/realization/2"
                                 className={`bg-yellow-700 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900`}

@@ -79,7 +79,7 @@ const initialState = {
     itemContent: [
         {
             id: 1,
-            header: 'Krzeslo Kenia',
+            header: 'Kenia',
             material: [],
             type: 'chair',
             additionalInfromations: [
@@ -98,6 +98,10 @@ const initialState = {
                         {
                             label: 'Głębokość',
                             value: '45cm'
+                        },
+                        {
+                            label: 'Wysokość z oparciem',
+                            value: '80cm'
                         }
                     ],
                     plaintext: null
@@ -142,6 +146,10 @@ const initialState = {
                         {
                             label: 'Głębokość',
                             value: '45cm'
+                        },
+                        {
+                            label: 'Wysokość z oparciem',
+                            value: '84cm'
                         }
                     ],
                     plaintext: null
@@ -268,9 +276,25 @@ const initialState = {
             type: 'chair',
             additionalInfromations: [
                 {
-                    key: null,
-                    name: "",
+                    key: 'technical',
+                    name: "Dane techniczne",
                     values: [
+                        {
+                            label: 'Wysokość',
+                            value: '75cm'
+                        },
+                        {
+                            label: 'Szerokość',
+                            value: '51cm'
+                        },
+                        {
+                            label: 'Głębokość',
+                            value: '43cm'
+                        },
+                        {
+                            label: 'Wysokość z oparciem',
+                            value: '110cm'
+                        }
                     ],
                     plaintext: null
                 }
@@ -364,9 +388,25 @@ const initialState = {
             type: 'chair',
             additionalInfromations: [
                 {
-                    key: null,
-                    name: "",
+                    key: 'technical',
+                    name: "Dane techniczne",
                     values: [
+                        {
+                            label: 'Wysokość',
+                            value: '48cm'
+                        },
+                        {
+                            label: 'Szerokość',
+                            value: '51cm'
+                        },
+                        {
+                            label: 'Głębokość',
+                            value: '46cm'
+                        },
+                        {
+                            label: 'Wysokość z oparciem',
+                            value: '85cm'
+                        }
                     ],
                     plaintext: null
                 }

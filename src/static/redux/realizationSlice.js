@@ -31,6 +31,12 @@ const initialState = {
             header: 'Elegancja i funkcjonalność',
             body: 'Ten szczególny projekt powstał dzięki wizji klienta, który chciał żeby stół wyglądał niczym dzieło sztuki które nada charakter jadalni, w związku z tym na blat został zastosowany fornir palisander, a spód z metalu w kolorze czarny mat.',
             photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/realization/lukasz/lukasz3.jpg'
+        },
+        {
+            id: 6,
+            header: 'Ciepło drewna',
+            body: 'Stół z metalowymi nogami i drewnianym blatem w połączeniu z nowoczesnymi krzesłami tworzy elegancką i nowoczesną przestrzeń. Metalowe nogi stołu kontrastują z ciepłem drewnianego blatu, a krzesła idealnie pasują pod względem stylu i kolorystyki. Cała aranżacja jest starannie doświetlona, tworząc idealne miejsce do posiłków i spotkań.',
+            photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/realization/cieplodrewna/Fa.jpg'
         }
     ],
 
@@ -120,7 +126,6 @@ const initialState = {
             id: 4,
             header: 'W loftowym wydaniu',
             content: 'W tym mieszkaniu niewątpliwie góruje styl loftowy, dlatego też laminowany blat w kolorze orzecha został połączony z metalowym spodem o niecodziennym wzorze. Z racji na otwarta kuchnię z salonem blat został dobrany do koloru blatów kuchennych.',
-            productInfo: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet',
             items: [
                 {
                     id: 17,
@@ -138,7 +143,6 @@ const initialState = {
             id: 5,
             header: 'Elegancja i funkcjonalność',
             content: 'Ten szczególny projekt powstał dzięki wizji klienta, który chciał żeby stół wyglądał niczym dzieło sztuki które nada charakter jadalni, w związku z tym na blat został zastosowany fornir palisander, a spód z metalu w kolorze czarny mat.',
-            productInfo: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet',
             items: [
                 {
                     id: 18,
@@ -160,6 +164,18 @@ const initialState = {
                     photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/realization/lukasz/lukasz4.jpg',
                     type: 'vertical'
                 }
+            ]
+        },
+        {
+            id: 6,
+            header: 'Ciepło drewna',
+            content: 'Stół z metalowymi nogami i drewnianym blatem w połączeniu z nowoczesnymi krzesłami tworzy elegancką i nowoczesną przestrzeń. Metalowe nogi stołu kontrastują z ciepłem drewnianego blatu, a krzesła idealnie pasują pod względem stylu i kolorystyki. Cała aranżacja jest starannie doświetlona, tworząc idealne miejsce do posiłków i spotkań.',
+            items: [
+                {
+                    id: 22,
+                    photo: 'https://storage.googleapis.com/stawowy-bucket/stawowy/realization/cieplodrewna/Fa.jpg',
+                    type: 'vertical'
+                },
             ]
         },
     ]

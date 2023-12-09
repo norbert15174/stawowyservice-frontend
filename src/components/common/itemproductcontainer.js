@@ -60,7 +60,7 @@ const ItemProductContainer = ({ id, materials, type, photos, header, additionalI
 
                     <button
                         onClick={() => selectedProducts.includes(id) ? removeProduct(id) : addProduct(id)}
-                        className={`mt-5 ${selectedProducts.includes(id) ? 'bg-yellow-900' : 'bg-neutral-900'} inline-block rounded p-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 float-right`}
+                        className={`mt-5 ${selectedProducts.includes(id) ? 'bg-yellow-900' : 'bg-neutral-900'} inline-block rounded p-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out float-right`}
                         type="button">
                         <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />

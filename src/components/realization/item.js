@@ -11,7 +11,7 @@ const Item = ({ id, header, text, photo }) => (
                 <p className="text-neutral-400 text-base">{text}</p>
             </div>
             <Link to={`/realization/` + id}
-                className="inline-block rounded text-center bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900 focus:bg-yellow-900">
+                className="inline-block rounded text-center bg-neutral-900 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-900">
                 Przejdz do realizacji
             </Link>
         </div>
