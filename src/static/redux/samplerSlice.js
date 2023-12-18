@@ -1863,7 +1863,205 @@ const initialState = {
             name: 'White-mat',
             image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/custom/white-mat.png',
             type: 'custom'
-        }
+        },
+        {	
+			id: 'RAL7024',
+			name: 'RAL7024',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL%207024.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL1000',
+			name: 'RAL1000',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL1000.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL1013',
+			name: 'RAL1013',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL1013.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL1014',
+			name: 'RAL1014',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL1014.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL1019',
+			name: 'RAL1019',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL1019.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL1020',
+			name: 'RAL1020',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL1020.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL2001',
+			name: 'RAL2001',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL2001.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL3004',
+			name: 'RAL3004',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL3004.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL3012',
+			name: 'RAL3012',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL3012.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL3015',
+			name: 'RAL3015',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL3015.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL4001',
+			name: 'RAL4001',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL4001.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL4006',
+			name: 'RAL4006',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL4006.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL4009',
+			name: 'RAL4009',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL4009.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL5001',
+			name: 'RAL5001',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL5001.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL5012',
+			name: 'RAL5012',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL5012.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL5021',
+			name: 'RAL5021',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL5021.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL6006',
+			name: 'RAL6006',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL6006.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL6011',
+			name: 'RAL6011',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL6011.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL6016',
+			name: 'RAL6016',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL6016.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7000',
+			name: 'RAL7000',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7000.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7004',
+			name: 'RAL7004',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7004.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7013',
+			name: 'RAL7013',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7013.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7022',
+			name: 'RAL7022',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7022.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7023',
+			name: 'RAL7023',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7023.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7035',
+			name: 'RAL7035',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7035.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL7038',
+			name: 'RAL7038',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL7038.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL8003',
+			name: 'RAL8003',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL8003.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL8008',
+			name: 'RAL8008',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL8008.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL8011',
+			name: 'RAL8011',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL8011.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL9002',
+			name: 'RAL9002',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL9002.png',
+			type: 'metal'
+		},
+		{	
+			id: 'RAL9004',
+			name: 'RAL9004',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/RAL9004.png',
+			type: 'metal'
+		},
+		{	
+			id: 'whitematmetal',
+			name: 'whitematmetal',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/bia%C5%82y%20mat.png',
+			type: 'metal'
+		},
+		{	
+			id: 'blackmatmetal',
+			name: 'blackmatmetal',
+			image: 'https://storage.googleapis.com/stawowy-bucket/stawowy/samplers/kolory%20metal%C3%B3w/czarny%20mat.png',
+			type: 'metal'
+		},
     ]
 };
 
