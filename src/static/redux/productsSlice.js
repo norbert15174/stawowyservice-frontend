@@ -50,7 +50,7 @@ const initialState = {
         {
             id: 6,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/konsola/konsola3.png`,
-            name: "Konsola",
+            name: "Comoe",
             material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
             time: "2-4 tygodni",
             position: "vertical",
@@ -59,7 +59,7 @@ const initialState = {
         {
             id: 7,
             image: `https://storage.googleapis.com/stawowy-bucket/stawowy/products/%C5%82awa/%C5%82awa3.png`,
-            name: "Comoe",
+            name: "Nil",
             material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir', 'custom'],
             time: "2-4 tygodni",
             position: "vertical",
@@ -419,7 +419,7 @@ const initialState = {
         },
         {
             id: 6,
-            header: 'Konsola',
+            header: 'Comoe',
             material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir','custom'],
             type: 'table',
             additionalInfromations: [
@@ -451,7 +451,7 @@ const initialState = {
         },
         {
             id: 7,
-            header: 'Comoe',
+            header: 'Nil',
             material: ['fornir-flizeline', 'fornir-natural-modified', 'fornir','custom'],
             type: 'bench',
             additionalInfromations: [
